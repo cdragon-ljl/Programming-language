@@ -1,0 +1,2 @@
+D:\cpp\友元\Debug\友元.exe
+D:\cpp\友元\Debug\友元.pdb
