@@ -1,0 +1,99 @@
+列表 List
+List1 = [1, 2, 3, 4]
+List2 = ['a', 'b', 'c', 'd']
+List3 = ["apple", "banana", "cat"]
+访问列表直接使用 list[下标]，类似数组，可用负数，从尾部开始访问
+截取元素[:]
+len(list)列表元素个数
+max(list)返回列表元素最大值
+min(list)返回列表元素最小值
+list()将其他类型转为列表
+list.append()在列表末尾添加新的对象
+list.count(obj)统计某个元素在列表中出现的次数
+list.extend(list2)在list尾部添加list2的元素
+list.index(obj)在列表中找出某个值第一个匹配项的索引位置
+list.insert(index,obj)在列表的第几项后插入一个值
+list.pop()移除列表中的最后一个元素，并返回该元素的值
+list.remove(obj)移除列表中某个值的第一个匹配项
+list.reverse()列表元素反向
+list.sort( key=None, reverse=False)列表排序 reverse -- 排序规则，reverse = True 降序， reverse = False 升序（默认）
+list.clear()清空列表
+list.copy()
+
+元组 tuple
+元组与列表类似，不同之处在于元组的元素不能修改。
+元组使用小括号，列表使用方括号。
+元组创建很简单，只需要在括号中添加元素，并使用逗号隔开即可。
+tup1 = (1, 2, 3, 4)
+tup2 = ('a', 'b', 'c', 'd')
+tup3 = ("apple", "banana", "cat", "dog")
+访问元组直接使用 tuple[下标]，类似数组，可用负数，从尾部开始访问
+len(tuple)计算元组元素个数
+max(tuple)返回元组中元素最大值
+min(tuple)返回元组中元素最小值
+tuple(iterable)其他可迭代系列转为元组
+
+元组元素不可变，指元组所指向的内存中的内容不可变
+
+字典 dict
+字典是另一种可变容器模型，且可存储任意类型对象。
+字典的每个键值(key=>value)对用冒号(:)分割，每个对之间用逗号(,)分割，整个字典包括在花括号({})中 ,格式如下所示：
+dict1 = {key1 : value1, key2 : value2}
+键必须是唯一的，值不必唯一
+值可以取任何数据类型，但键必须是不可变的，如字符串，数字或元组。
+dict1 = {'Alice' : '2341', 'Beth' : '9102', 'Cecil' : '3258'}
+dict2 = {'abc' : 456}
+dict3 = {'abc' : 123, 98.6 : 37}
+
+访问字典 把相应的键放入到方括号中dict['key']
+修改/添加 dict['Key']
+删除 del dict['Key']删除键值 dict.clear() 清空 del dict 删除字典
+len(dict)计算字典元素个数，即总的键值
+str(dict) 以字符串格式输出字典
+
+dict.copy()复制字典
+dict.fromkeys(seq, value)创建一个新的字典，以seq为键，value为键值
+dict.get(key,default=None)返回指定键值，若不存在则返回default的值
+key in dict 键在返回true，否则返回false
+dict.items()以列表返回可遍历的(键，值)元组数组
+dict.keys()以列表返回键
+dict.setdefault(key,default=None)和get类似，没有则创建，值为None
+dict.update(dict2)把字典2的键/值对更新到dict中
+dict.values()返回一个值得列表
+pop(key,[,default])删除字典给定键所对应的值，返回值为被删除的值
+popitem()随机返回并删除字典中的最后一对键和值
+
+集合 set
+集合（set）是一个无序的不重复元素序列
+可以使用大括号 { } 或者 set() 函数创建集合，注意：创建一个空集合必须用 set() 而不是 { }，因为 { } 是用来创建一个空字典。
+set1 = {'a', 'b', 'c', 'd'}
+a = set('abcd') #a = {'a', 'b', 'c', 'd'}
+快速判断元素是否在集合内 ‘a' in a
+集合间运算
+a = set('abracadabra')
+b = set('alacazam')
+a - b a中有的b中没有的元素
+a | b a中和b中的所有元素
+a & b a,b中都有的元素
+a ^ b 除去a,b中都有的元素后的集合
+
+a.add(x)添加元素
+a.update(x)添加元素，且参数可为列表，元组，字典等
+a.remove(x)移除元素，若不存在则会报错
+a.discard(x)移除元素
+a.pop()随机删除集合中一个元素
+len(a)计算集合元素个数
+a.clear()清空集合
+x in a 判断元素x是否在集合a中，存在则返回True,不存在返回False
+a.copy()拷贝一个集合
+a.difference()返回多个集合的差集
+a.difference_update()移除集合中的元素，该元素在指定的集合也存在
+a.intersection()返回集合的交集
+a.intersection_update()返回集合的交集
+a.isdisjoint()判断两个集合是否包含相同的元素，没有返回True
+a.issubset()判断指定集合是否为该方法参数集合的子集
+a.issuperset()判断该方法的参数集合是否为指定集合的子集
+a.symmetric_difference()返回两个集合中不重复的元素集合
+a.symmetric_difference_update()移除当前集合中在另外一个指定集合相同的元素，并将另外一个指定集合中不同的元素插入到当前集合中
+a.union()返回两个集合的并集
+
