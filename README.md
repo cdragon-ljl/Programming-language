@@ -1,2 +1,7 @@
-# Programming-language
-几门编程语言的学习笔记
+# Programming-language 编程语言学习笔记
+**计划学习**
+
+* Cplusplus
+* Java
+* Python
+* Go
