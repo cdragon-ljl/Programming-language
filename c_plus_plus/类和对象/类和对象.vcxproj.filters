@@ -18,5 +18,22 @@
     <ClCompile Include="封装的意义.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="点和圆的关系.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

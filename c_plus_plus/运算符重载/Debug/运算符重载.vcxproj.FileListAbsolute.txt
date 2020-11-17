@@ -1,2 +1,4 @@
 D:\cpp\运算符重载\Debug\运算符重载.exe
 D:\cpp\运算符重载\Debug\运算符重载.pdb
+D:\Programming-language\c_plus_plus\运算符重载\Debug\运算符重载.exe
+D:\Programming-language\c_plus_plus\运算符重载\Debug\运算符重载.pdb

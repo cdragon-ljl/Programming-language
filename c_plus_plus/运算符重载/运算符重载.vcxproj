@@ -144,6 +144,7 @@
     <ClCompile Include="加号运算符重载.cpp" />
     <ClCompile Include="左移运算符重载.cpp" />
     <ClCompile Include="赋值运算符重载.cpp" />
+    <ClCompile Include="递减运算符重载.cpp" />
     <ClCompile Include="递增运算符重载.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
